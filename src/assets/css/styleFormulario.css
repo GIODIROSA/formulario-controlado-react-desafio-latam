@@ -1,0 +1,32 @@
+.contenedor-formulario {
+    max-width: 1440px;
+    margin: 0rem auto;
+}
+
+.contenedor-card__formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 2rem;
+}
+
+.card-body {
+    box-shadow: 5px 10px #668284;
+}
+
+.claseError {
+    background-color: #f67280;
+    transition: background-color 1s ease-in-out;
+    border-radius: 6px;
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .contenedor-formulario {
+        padding: 0 20px;
+    }
+}
